@@ -1,0 +1,47 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.nav-link {
+    color: #76a3bb;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.feather {
+    display: block;
+    float: left;
+}
+
+.one {
+    background-color: #ffffff;
+}
+
+.two {
+    background-color: #faf1e2;
+}
+
+@media only screen and (max-width: 768px) {
+    .feather {
+        display: none;
+    }
+}
+
+.carousel-control-prev span.carousel-control-prev-icon,
+.carousel-control-next span.carousel-control-next-icon {
+    background-color: #000000;
+}
+
+footer {
+    background-color: #faf1e2;
+    background-image: url("../images/footerback.png");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,50 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.nav-link {
+    color: #76a3bb;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.divider {
+    background-color: #faf1e2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.time {
+    background-color: #faf1e2;
+}
+
+.passage {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.stack {
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.stackright {
+    display: block;
+    float: right;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #faf1e2;
+    background-image: url("../images/footerback.png");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
